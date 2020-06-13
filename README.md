@@ -7,4 +7,6 @@
 ### - Pedro Liduino do Nascimento - nUSP: 11796847 - [GitHub]()
 
 # Desenvolvimento:
+## Circuito:
+## ![Screenshot](screenshot.png)
 ## Link para o [Circuito](http://tinyurl.com/y74mjxyb) 
