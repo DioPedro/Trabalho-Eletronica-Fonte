@@ -3,7 +3,7 @@
 
 ### Trabalho desenvolvido pelos alunos:
 ### - Diógenes Silva Pedro - nUSP: 11883476 - [GitHub](https://github.com/DioUSP)
-### - Rodrigo Lopes Assaf - nUSP:  - [GitHub](https://github.com/Roassaf)
-### - Pedro Liduino - nUSP:  - [GitHub]()
+### - Rodrigo Lopes Assaf - nUSP: 11795530 - [GitHub](https://github.com/Roassaf)
+### - Pedro Liduino do Nascimento - nUSP: 11796847 - [GitHub]()
 
 ## Desenvolvimento:
