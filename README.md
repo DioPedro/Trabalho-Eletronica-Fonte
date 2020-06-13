@@ -8,5 +8,9 @@
 
 # Desenvolvimento:
 ## Circuito:
-## ![Screenshot]()
-## Link para o [Circuito](http://tinyurl.com/y74mjxyb) 
+## ![Screenshot](Screenshot.png)
+## Link para o [Circuito](http://tinyurl.com/yd83wmwz) 
+
+## Transformador - R$ 26,00
+## Diodo - R$ 0,38 a unidade
+## Diodo Zener - R$ 
