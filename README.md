@@ -8,5 +8,5 @@
 
 # Desenvolvimento:
 ## Circuito:
-# ![Screenshot](Screenshot.png)
+## ![Screenshot](Screenshot.png)
 ## Link para o [Circuito](http://tinyurl.com/y74mjxyb) 
