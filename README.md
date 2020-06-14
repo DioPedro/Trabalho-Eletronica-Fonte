@@ -4,7 +4,7 @@
 ## **Trabalho desenvolvido pelos alunos:**
 - **Diógenes Silva Pedro (Dio) - nUSP: 11883476** - [GitHub](https://github.com/DioUSP)
 - **Rodrigo Lopes Assaf (Árabe) - nUSP: 11795530** - [GitHub](https://github.com/Roassaf)
-- **Pedro Liduino do Nascimento (Rio) - nUSP: 11796847** - [GitHub]()
+- **Pedro Liduino do Nascimento (Rio) - nUSP: 11796847** - [GitHub](https://github.com/pedronii)
 --------
 # **Desenvolvimento:**
 O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir da tomada (no nosso caso 110V - corrente alteranada) em uma tensão que não seja prejudicial ao nosso circuito, tal tensão está entre 3 e 12 Volts em corrente contínua.
