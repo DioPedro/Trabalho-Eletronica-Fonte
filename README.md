@@ -26,21 +26,21 @@
 |Custo Total | | **R$40,62** |
 ## **Justificativa dos componentes escolhidos:**
 ### 1. Transformador:
-    - Transforma a corrente alternada de 127V em uma corrente, ainda alternada, de 17V, assim ficamos mais próximos da tensão de entre 3 e 12V desejada 
+    * Transforma a corrente alternada de 127V em uma corrente, ainda alternada, de 17V, assim ficamos mais próximos da tensão de entre 3 e 12V desejada 
 ### 2. Ponte Retificadora:
-    - Transforma a corrente alternada de ~17V em uma corrente contínua de ~16V com ~342 nA
+    * Transforma a corrente alternada de ~17V em uma corrente contínua de ~16V com ~342 nA
 ### 3. Capacitor:
-    - O intuito do capacitor é guardar corrente e com isso liberá-la quando necessário para o circuito. Como queremos manter a tensão máxima o mais próximo possível de 12V, usaremos um capacitor de 1 micro Faraday. 
+    * O intuito do capacitor é guardar corrente e com isso liberá-la quando necessário para o circuito. Como queremos manter a tensão máxima o mais próximo possível de 12V, usaremos um capacitor de 1 micro Faraday. 
 ### 4. Diodo Zener:
-    - Transformar a corrente alternada que vem da tomada e consequentemente do transformador em corrente contínua, como ele tem ~6mA e ~13V temos P = i.u -> P = 0,006 * 13 -> P = 0,78W -> P = 780 mW então um diodo de 1W se faz suficiente.
+    * Transformar a corrente alternada que vem da tomada e consequentemente do transformador em corrente contínua, como ele tem ~6mA e ~13V temos P = i.u -> P = 0,006 * 13 -> P = 0,78W -> P = 780 mW então um diodo de 1W se faz suficiente.
 ### 5. Potenciômetro:
-    - Resistor variável que controla qual a tensão atual no circuito, no nosso caso temos um mínimo de ~2.7V e um máximo de ~12.2V
+    * Resistor variável que controla qual a tensão atual no circuito, no nosso caso temos um mínimo de ~2.7V e um máximo de ~12.2V
 ### 6. Resistência:
-    - 120Ω: Ajuda a regular a tensão de saída
-    - 330Ω: Limita a corrente que passa pelo Zener, cujo qual não pode ter uma potência maior que 1W ou uma tensão maior que 15V
-    - 2kΩ: Ajuda a regular a tensão de base que volta ao transformador e consequentemente a voltagem final do circuito
+    * 120Ω: Ajuda a regular a tensão de saída
+    * 330Ω: Limita a corrente que passa pelo Zener, cujo qual não pode ter uma potência maior que 1W ou uma tensão maior que 15V
+    * 2kΩ: Ajuda a regular a tensão de base que volta ao transformador e consequentemente a voltagem final do circuito
 ### 7. Switch:
-    - Ligar e desligar o circuito
+    * Ligar e desligar o circuito
 --------
 # Agradecimentos:
 ## Agradecer ao professor Simões por mesmo em tempos difíceis como os atuais estar se esforçando para o decorrer da disciplina. O grupo espera que tudo esteja bem e espera que assim que possível possa voltar a reencontrar o professor presencialmente pelo Campus ou no ICMC.
