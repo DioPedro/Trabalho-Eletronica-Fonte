@@ -25,21 +25,21 @@
 |Switch | 250V e 3A | [R$8,00](https://produto.mercadolivre.com.br/MLB-1300399738-boto-chave-gangorra-mini-interruptor-liga-desliga-on-off-10x15mm-kcd13-101-3a-250v-arduino-_JM?variation=42249952649&quantity=1#reco_item_pos=0&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=3b5ba658-e897-4edb-bdb5-659b62db67cc) |
 |Custo Total | | **R$40,62** |
 ## **Justificativa dos componentes escolhidos:**
-1. Transformador:
+**1. Transformador:**
     * Transforma a corrente alternada de 127V em uma corrente, ainda alternada, de 17V, assim ficamos mais próximos da tensão de entre 3 e 12V desejada 
-2. Ponte Retificadora:
+**2. Ponte Retificadora:**
     * Transforma a corrente alternada de ~17V em uma corrente contínua de ~16V com ~342 nA
-3. Capacitor:
+**3. Capacitor:**
     * O intuito do capacitor é guardar corrente e com isso liberá-la quando necessário para o circuito. Como queremos manter a tensão máxima o mais próximo possível de 12V, usaremos um capacitor de 1 micro Faraday. 
-4. Diodo Zener:
+**4. Diodo Zener:**
     * Transformar a corrente alternada que vem da tomada e consequentemente do transformador em corrente contínua, como ele tem ~6mA e ~13V temos P = i.u -> P = 0,006 * 13 -> P = 0,78W -> P = 780 mW então um diodo de 1W se faz suficiente.
-5. Potenciômetro:
+**5. Potenciômetro:**
     * Resistor variável que controla qual a tensão atual no circuito, no nosso caso temos um mínimo de ~2.7V e um máximo de ~12.2V
-6. Resistência:
+**6. Resistência:**
     * 120Ω: Ajuda a regular a tensão de saída
     * 330Ω: Limita a corrente que passa pelo Zener, cujo qual não pode ter uma potência maior que 1W ou uma tensão maior que 15V
     * 2kΩ: Ajuda a regular a tensão de base que volta ao transformador e consequentemente a voltagem final do circuito
-7. Switch:
+**7. Switch:**
     * Ligar e desligar o circuito
 --------
 # Agradecimentos:
