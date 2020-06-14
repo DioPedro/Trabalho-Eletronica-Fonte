@@ -22,6 +22,6 @@
 |Resistência | 330Ω | [R$0,13](https://produto.mercadolivre.com.br/MLB-1342907792-resistor-330-ohms-100-unidades-_JM?matt_tool=79246729&matt_word&gclid=EAIaIQobChMIuqTRqdz_6QIVFYCRCh34pgaiEAkYASABEgLngfD_BwE&quantity=1) |
 |Resistência | 2kΩ | [R$0,17](https://produto.mercadolivre.com.br/MLB-1359755617-100un-resistor-18w-2k-2000-ohms-_JM?quantity=1#position=1&type=item&tracking_id=cfe0aced-991b-46f7-ad48-868c569c5428) |
 |Switch | 250V e 3A | [R$8,00](https://produto.mercadolivre.com.br/MLB-1300399738-boto-chave-gangorra-mini-interruptor-liga-desliga-on-off-10x15mm-kcd13-101-3a-250v-arduino-_JM?variation=42249952649&quantity=1#reco_item_pos=0&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=3b5ba658-e897-4edb-bdb5-659b62db67cc) |
-|Custo Total | | **R$39,35** |
+|Custo Total | | **R$40,49** |
 ## Justificativa dos componentes escolhidos:
 ### !!!A fazer!!!
