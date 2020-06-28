@@ -13,7 +13,7 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
 ## **Link para o circuito no [Falstad](http://tinyurl.com/yca5v5q7)** 
 --------
 | **Componente** | **Especificações** | **Valor(Unitário)** |
-|:--------:|:--------:|:--------:|
+|:---------------:|:-------------:|:---------------:|
 |Transformador | 15V e 300mA | [R$26,00](https://produto.mercadolivre.com.br/MLB-802952898-transformador-primario-0110-0110-secundario-015v-300ma-_JM?matt_tool=82322591&matt_word&gclid=EAIaIQobChMIhsubx8z_6QIVjoSRCh005QUsEAkYCiABEgKHK_D_BwE&quantity=1) |
 |4x Diodo | 400V e 3A | [R$0,38](https://www.autoeletronica.net/produtos/diodo-retificador-1n5404) |
 |Diodo Zener | 1W e 15V | [R$0,18](https://www.autoeletronica.net/produtos/diodo-zener-1n4744a-15v-1w) |
@@ -26,7 +26,6 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
 |Custo Total | | **R$40,62** |
 --------
 Obs: Os links dos produtos estão disponíveis ao clicar no preço
---------
 ## **Justificativa dos componentes escolhidos:**
 1. Transformador:
     * Transforma a corrente alternada de 127V em uma corrente, ainda alternada, de 17V, assim ficamos mais próximos da tensão de entre 3 e 12V desejada 
