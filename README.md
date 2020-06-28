@@ -13,7 +13,7 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
 ## **Link para o circuito no [Falstad](http://tinyurl.com/yca5v5q7)** 
 --------
 | **Componente** | **Especificações** | **Valor(Unitário)** |
-|:---------------:|:-------------:|:---------------:|
+|::|::|::|
 |Transformador | 15V e 300mA | [R$26,00](https://produto.mercadolivre.com.br/MLB-802952898-transformador-primario-0110-0110-secundario-015v-300ma-_JM?matt_tool=82322591&matt_word&gclid=EAIaIQobChMIhsubx8z_6QIVjoSRCh005QUsEAkYCiABEgKHK_D_BwE&quantity=1) |
 |4x Diodo | 400V e 3A | [R$0,38](https://www.autoeletronica.net/produtos/diodo-retificador-1n5404) |
 |Diodo Zener | 1W e 15V | [R$0,18](https://www.autoeletronica.net/produtos/diodo-zener-1n4744a-15v-1w) |
@@ -24,7 +24,8 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
 |Resistência | 2kΩ | [R$0,17](https://produto.mercadolivre.com.br/MLB-1359755617-100un-resistor-18w-2k-2000-ohms-_JM?quantity=1#position=1&type=item&tracking_id=cfe0aced-991b-46f7-ad48-868c569c5428) |
 |Switch | 250V e 3A | [R$8,00](https://produto.mercadolivre.com.br/MLB-1300399738-boto-chave-gangorra-mini-interruptor-liga-desliga-on-off-10x15mm-kcd13-101-3a-250v-arduino-_JM?variation=42249952649&quantity=1#reco_item_pos=0&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=3b5ba658-e897-4edb-bdb5-659b62db67cc) |
 |Custo Total | | **R$40,62** |
-Obs: Os links dos produtos estão disponíveis ao clicar no preço
+--------
+##### h5 Obs: Os links dos produtos estão disponíveis ao clicar no preço
 --------
 ## **Justificativa dos componentes escolhidos:**
 1. Transformador:
