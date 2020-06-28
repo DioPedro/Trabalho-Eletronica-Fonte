@@ -25,7 +25,8 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
 |Switch | 250V e 3A | [R$8,00](https://produto.mercadolivre.com.br/MLB-1300399738-boto-chave-gangorra-mini-interruptor-liga-desliga-on-off-10x15mm-kcd13-101-3a-250v-arduino-_JM?variation=42249952649&quantity=1#reco_item_pos=0&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=3b5ba658-e897-4edb-bdb5-659b62db67cc) |
 |Custo Total | | **R$40,62** |
 --------
-Obs: Os links dos produtos estão disponíveis ao clicar no preço
+##### Obs: Os links dos produtos estão disponíveis ao clicar no preço
+--------
 ## **Justificativa dos componentes escolhidos:**
 1. Transformador:
     * Transforma a corrente alternada de 127V em uma corrente, ainda alternada, de 17V, assim ficamos mais próximos da tensão de entre 3 e 12V desejada 
