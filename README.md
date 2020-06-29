@@ -7,7 +7,7 @@
 - **Pedro Liduino do Nascimento (Rio) - nUSP: 11796847** - [GitHub](https://github.com/pedronii)
 --------
 # **Desenvolvimento:**
-O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir da tomada (no nosso caso 110V - corrente alteranada) em uma tensão que não seja prejudicial ao nosso circuito, tal tensão está entre 3 e 12 Volts em corrente contínua.
+O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir da tomada (no nosso caso 127V - corrente alteranada) em uma tensão que não seja prejudicial ao nosso circuito, tal tensão está entre 3 e 12 Volts em corrente contínua.
 ## **Imagem do Circuito:**
 ## ![Screenshot](Screenshot.png)
 ## **Link para o circuito no [Falstad](http://tinyurl.com/yca5v5q7)** 
