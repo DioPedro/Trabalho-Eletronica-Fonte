@@ -25,7 +25,7 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
 |Switch | 250V e 3A | [R$8,00](https://produto.mercadolivre.com.br/MLB-1300399738-boto-chave-gangorra-mini-interruptor-liga-desliga-on-off-10x15mm-kcd13-101-3a-250v-arduino-_JM?variation=42249952649&quantity=1#reco_item_pos=0&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=3b5ba658-e897-4edb-bdb5-659b62db67cc) |
 |Custo Total | | **R$40,62** |
 --------
-Obs: Os links dos produtos estão disponíveis ao clicar no preço
+#### Obs: Os links dos produtos estão disponíveis ao clicar no preço
 --------
 ## **Justificativa dos componentes escolhidos:**
 1. Transformador:
@@ -49,7 +49,7 @@ Obs: Os links dos produtos estão disponíveis ao clicar no preço
 ## ![Esquemático](Esquematico.png)
 # PCB no Eagle:
 ## ![PCB](PCB.png)
-## Os arquivos originais se encontram no repositório
+#### Os arquivos originais se encontram no repositório
 --------
 # Agradecimentos:
 Agradecer ao Professor Simões por mesmo em tempos difíceis como os atuais estar se esforçando para o decorrer da disciplina. O grupo espera que tudo esteja bem e espera que assim que possível possa voltar a reencontrar o professor presencialmente pelo Campus ou no ICMC.
