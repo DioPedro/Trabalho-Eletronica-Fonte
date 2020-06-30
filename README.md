@@ -41,7 +41,7 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
     * Resistor variável que controla qual a tensão atual no circuito e a corrente, no nosso caso temos um mínimo de ~2.7V e ~22mA e um máximo de ~12.2V e ~101mA. 
 6. Resistência:
     * 120Ω: Ajuda a regular a tensão e amperagem de saída
-    * 330Ω: Limita a corrente que passa pelo Zener, cujo qual não pode ter uma potência maior que 1W ou uma tensão maior que 15V
+    * 330Ω: Limita a corrente que passa pelo Zener, cujo qual não pode ter uma potência maior que 1W ou uma tensão maior que 13V
     * 2kΩ: Ajuda a regular a tensão de base que volta ao transformador e consequentemente a voltagem final do circuito
 7. Switch:
     * Ligar e desligar o circuito
