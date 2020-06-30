@@ -38,7 +38,7 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
     * Equivale a ~6mA e ~13V, temos P = i.u -> P = 0,006 * 13 -> P = 0,78W -> P = 780 mW, então um diodo de 1W se faz suficiente.
     * Estamos usando ele inversamente polarizado, qualquer diodo que seja polazirado inversamente funciona praticamente não conduzindo corrente elétrica desde que não ultrapasse a tensão de ruptura, que é a tensão máxima, no nosso caso 13V. 
 5. Potenciômetro:
-    * Resistor variável que controla qual a tensão atual no circuito, no nosso caso temos um mínimo de ~2.7V e um máximo de ~12.2V
+    * Resistor variável que controla qual a tensão atual no circuito e a corrente, no nosso caso temos um mínimo de ~2.7V e ~22mA e um máximo de ~12.2V e ~101mA. 
 6. Resistência:
     * 120Ω: Ajuda a regular a tensão de saída
     * 330Ω: Limita a corrente que passa pelo Zener, cujo qual não pode ter uma potência maior que 1W ou uma tensão maior que 15V
