@@ -52,7 +52,7 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
 ## ![PCB](Imagens/PCB.png)
 #### Os arquivos originais se encontram no repositório
 --------
-# Video:
+# Video explicativo:
 ## [![Imagem da Thumbnail](Imagens/eletronica.jpg)](https://youtu.be/flwLaqKcmfY)
 --------
 # Agradecimentos:
