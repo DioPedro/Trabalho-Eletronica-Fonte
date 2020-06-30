@@ -35,7 +35,8 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
 3. Capacitor:
     * O intuito do capacitor é guardar corrente e com isso liberá-la quando necessário para o circuito. Como queremos manter a tensão máxima o mais próximo possível de 12V, usaremos um capacitor de 1 micro Faraday. 
 4. Diodo Zener:
-    * Transformar a corrente alternada que vem da tomada e consequentemente do transformador em corrente contínua, como ele tem ~6mA e ~13V temos P = i.u -> P = 0,006 * 13 -> P = 0,78W -> P = 780 mW então um diodo de 1W se faz suficiente.
+    * Equivale a ~6mA e ~13V, temos P = i.u -> P = 0,006 * 13 -> P = 0,78W -> P = 780 mW, então um diodo de 1W se faz suficiente.
+    * Estamos usando ele inversamente polarizado, qualquer diodo que seja polazirado inversamente funciona praticamente não conduzindo corrente elétrica desde que não ultrapasse a tensão de ruptura, no nosso caso 13V. 
 5. Potenciômetro:
     * Resistor variável que controla qual a tensão atual no circuito, no nosso caso temos um mínimo de ~2.7V e um máximo de ~12.2V
 6. Resistência:
