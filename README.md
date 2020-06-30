@@ -1,5 +1,5 @@
 # **Trabalho Eletrônica Fonte**
-## **SCC0180 - Eletrônica para a Computação - Prof Simões** [GitHub](https://github.com/simoesusp)
+## **SSC0180 - Eletrônica para a Computação - Prof Simões** [GitHub](https://github.com/simoesusp)
 --------
 ## **Trabalho desenvolvido pelos alunos:**
 - **Diógenes Silva Pedro (Dio) - nUSP: 11883476** - [GitHub](https://github.com/DioUSP)
@@ -9,7 +9,7 @@
 # **Desenvolvimento:**
 O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir da tomada (no nosso caso 127V - corrente alteranada) em uma tensão que não seja prejudicial ao nosso circuito, tal tensão está entre 3 e 12 Volts em corrente contínua.
 ## **Imagem do Circuito:**
-## ![Screenshot](Screenshot.png)
+## ![Screenshot](Imagens/Screenshot.png)
 ## **Link para o circuito no [Falstad](http://tinyurl.com/yca5v5q7)** 
 --------
 | **Componente** | **Especificações** | **Valor(Unitário)** |
@@ -47,12 +47,13 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
     * Ligar e desligar o circuito
 --------
 # Projeto do Esquemático:
-## ![Esquemático](Esquematico.png)
+## ![Esquemático](Imagens/Esquematico.png)
 # PCB (Printed Circuit Board) no Eagle:
-## ![PCB](PCB.png)
+## ![PCB](Imagens/PCB.png)
 #### Os arquivos originais se encontram no repositório
 --------
 # Video:
+## [![Imagem da Thumbnail](Imagens/eletronica.jpg)](https://youtu.be/flwLaqKcmfY)
 --------
 # Agradecimentos:
 Agradecer ao Professor Simões por mesmo em tempos difíceis como os atuais estar se esforçando para o decorrer da disciplina. O grupo espera que tudo esteja bem e espera que assim que possível possa voltar a reencontrar o professor presencialmente pelo Campus ou no ICMC.
