@@ -29,9 +29,9 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
 --------
 ## **Justificativa dos componentes escolhidos:**
 1. Transformador:
-    * Transforma a corrente alternada de 127V em uma corrente, ainda alternada, de 17V, assim ficamos mais próximos da tensão de entre 3 e 12V desejada 
+    * Transforma a corrente alternada com 127V em uma corrente, ainda alternada, de 17V, assim ficamos mais próximos da tensão de entre 3 e 12V desejada 
 2. Ponte Retificadora:
-    * Transforma a corrente alternada de ~17V em uma corrente contínua de ~16V com ~342 nA
+    * Transforma a corrente alternada com ~17V em uma corrente contínua com ~16V com ~342 nA
 3. Capacitor:
     * O intuito do capacitor é guardar corrente e com isso liberá-la quando necessário para o circuito. Como queremos manter a tensão máxima o mais próximo possível de 12V, usaremos um capacitor de 1 micro Faraday. 
 4. Diodo Zener:
