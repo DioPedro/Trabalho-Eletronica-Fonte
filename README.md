@@ -43,7 +43,8 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
     * Resistor variável que controla qual a tensão atual no circuito e a corrente, no nosso caso temos um mínimo de ~3V e ~25mA e um máximo de ~12.2V e ~101mA. 
 6. **Resistência**:
     * 330Ω: Limita a corrente que passa pelo Zener, cujo qual não pode ter uma potência maior que 1W ou uma tensão maior que 13V.
-    * 2kΩ: Ajuda a regular a tensão de base que volta ao transistor e consequentemente a voltagem final do circuito.
+    * 1.1kΩ: Usado para ajustar a corrente e tensão que chega no LED, caso não tivessemos esse resistor o LED acabaria queimando.
+    * 2.2kΩ: Ajuda a regular a tensão de base que volta ao transistor e consequentemente a voltagem final do circuito.
 7. **Transistor**:
     * Transistor NPN BC337, usado para controlar corrente elétrica, barrando ou amplificando a corrente, no nosso caso adequamos a corrente que vai para o potênciometro. 
 8. **LED**:
