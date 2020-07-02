@@ -23,7 +23,7 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
 |Resistência | 2.2kΩ | [R$4,00](https://www.sotudo.com.br/produto/resistor-1w-2-2k-ohms) |
 |Switch | 250V e 3A | [R$8,00](https://produto.mercadolivre.com.br/MLB-1300399738-boto-chave-gangorra-mini-interruptor-liga-desliga-on-off-10x15mm-kcd13-101-3a-250v-arduino-_JM?variation=42249952649&quantity=1#reco_item_pos=0&reco_backend=machinalis-seller-items-pdp&reco_backend_type=low_level&reco_client=vip-seller_items-above&reco_id=3b5ba658-e897-4edb-bdb5-659b62db67cc) |
 |Transistor | 45V e 500mA | [R$0,17](https://www.baudaeletronica.com.br/transistor-npn-bc337.html) |
-|Custo Total | | **R$44,22** |
+|Custo Total | | **R$44,39** |
 --------
 #### Obs: Os links dos produtos estão disponíveis ao clicar no preço
 --------
