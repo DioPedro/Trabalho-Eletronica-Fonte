@@ -14671,6 +14671,102 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="led" urn="urn:adsk.eagle:library:259">
+<description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
+Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
+<packages>
+<package name="LED3MM" urn="urn:adsk.eagle:footprint:15654/1" library_version="5">
+<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
+3 mm, round</description>
+<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
+<wire x1="-1.524" y1="0" x2="-1.1708" y2="0.9756" width="0.1524" layer="51" curve="-39.80361"/>
+<wire x1="-1.524" y1="0" x2="-1.1391" y2="-1.0125" width="0.1524" layer="51" curve="41.633208"/>
+<wire x1="1.1571" y1="0.9918" x2="1.524" y2="0" width="0.1524" layer="51" curve="-40.601165"/>
+<wire x1="1.1708" y1="-0.9756" x2="1.524" y2="0" width="0.1524" layer="51" curve="39.80361"/>
+<wire x1="0" y1="1.524" x2="1.2401" y2="0.8858" width="0.1524" layer="21" curve="-54.461337"/>
+<wire x1="-1.2192" y1="0.9144" x2="0" y2="1.524" width="0.1524" layer="21" curve="-53.130102"/>
+<wire x1="0" y1="-1.524" x2="1.203" y2="-0.9356" width="0.1524" layer="21" curve="52.126876"/>
+<wire x1="-1.203" y1="-0.9356" x2="0" y2="-1.524" width="0.1524" layer="21" curve="52.126876"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90"/>
+<wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108"/>
+<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949"/>
+<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022"/>
+<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215"/>
+<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701"/>
+<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822"/>
+<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
+<text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="LED3MM" urn="urn:adsk.eagle:package:15797/1" type="box" library_version="5">
+<description>LED
+3 mm, round</description>
+<packageinstances>
+<packageinstance name="LED3MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="LED" urn="urn:adsk.eagle:symbol:15639/2" library_version="5">
+<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
+<text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="-2.159"/>
+<vertex x="-3.048" y="-1.27"/>
+<vertex x="-2.54" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-3.302"/>
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-2.413" y="-2.921"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TLLR4400" urn="urn:adsk.eagle:component:15908/3" prefix="LED" library_version="5">
+<description>&lt;b&gt;Low Current (2mA) LED 3 mm Tinted Diffused Package&lt;/b&gt; color &lt;b&gt;&lt;font color="darkred"&gt;RED&lt;/font&gt;&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED3MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15797/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="VISHAY SEMICONDUCTOR" constant="no"/>
+<attribute name="OC_FARNELL" value="1612437" constant="no"/>
+<attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14690,18 +14786,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="SAIDA" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="2.2k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="330"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2" value="1.1k"/>
+<part name="LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="TLLR4400" device="" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="T1" gate="G$1" x="48.26" y="2.54" smashed="yes">
-<attribute name="NAME" x="38.1" y="10.16" size="1.778" layer="95"/>
-<attribute name="VALUE" x="38.1" y="7.62" size="1.778" layer="96"/>
-</instance>
+<instance part="T1" gate="G$1" x="48.26" y="2.54" smashed="yes"/>
 <instance part="R2" gate="G$1" x="40.64" y="2.54" smashed="yes">
-<attribute name="NAME" x="34.671" y="-1.27" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="36.83" y="-1.27" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D1" gate="G$1" x="33.02" y="-7.62" smashed="yes" rot="R90">
@@ -14712,9 +14806,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="VALUE" x="-5.08" y="2.54" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="-5.08" y="-5.08" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="C1" gate="G$1" x="20.32" y="-2.54" smashed="yes">
-<attribute name="NAME" x="21.463" y="-2.0574" size="1.778" layer="95"/>
-<attribute name="VALUE" x="21.463" y="-7.1374" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="17.78" y="0" smashed="yes">
+<attribute name="VALUE" x="18.923" y="-4.5974" size="1.778" layer="96"/>
 </instance>
 <instance part="ENTRADA" gate="G$1" x="-43.18" y="-2.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="-36.83" y="-8.255" size="1.778" layer="95" rot="R180"/>
@@ -14725,12 +14818,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="VALUE" x="59.69" y="-12.7" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="40.64" y="-10.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.1414" y="-13.97" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="43.942" y="-13.97" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R4" gate="G$1" x="33.02" y="12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.5214" y="8.89" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="36.322" y="8.89" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R1" gate="G$1" x="25.4" y="7.62" smashed="yes" rot="R90">
+<attribute name="VALUE" x="28.702" y="3.81" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED" gate="G$1" x="25.4" y="-15.24" smashed="yes">
+<attribute name="NAME" x="28.956" y="-19.812" size="1.778" layer="95" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -14738,19 +14835,23 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<wire x1="20.32" y1="0" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="2.54" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="17.78" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="C"/>
+<wire x1="25.4" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="17.78" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="17.78" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="17.78" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
-<junction x="20.32" y="17.78"/>
+<wire x1="17.78" y1="17.78" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
+<junction x="17.78" y="17.78"/>
 <wire x1="-12.7" y1="17.78" x2="-12.7" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="+"/>
 <pinref part="B1" gate="1" pin="+"/>
 <wire x1="-12.7" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <junction x="33.02" y="17.78"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="17.78" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
+<junction x="25.4" y="17.78"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -14782,11 +14883,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <wire x1="40.64" y1="-15.24" x2="40.64" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-22.86" x2="33.02" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="-22.86" x2="20.32" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="-22.86" x2="12.7" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-22.86" x2="25.4" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-22.86" x2="17.78" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-22.86" x2="12.7" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-22.86" x2="12.7" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="-7.62" x2="20.32" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="20.32" y="-22.86"/>
+<wire x1="17.78" y1="-5.08" x2="17.78" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="17.78" y="-22.86"/>
 <pinref part="C1" gate="G$1" pin="-"/>
 <pinref part="B1" gate="1" pin="-"/>
 <wire x1="12.7" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="91"/>
@@ -14799,6 +14901,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="33.02" y1="-10.16" x2="33.02" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="33.02" y="-22.86"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="LED" gate="G$1" pin="C"/>
+<wire x1="25.4" y1="-20.32" x2="25.4" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="25.4" y="-22.86"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -14827,6 +14932,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="33.02" y1="-5.08" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <junction x="33.02" y="7.62"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="2.54" x2="25.4" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="LED" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
