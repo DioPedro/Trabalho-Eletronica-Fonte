@@ -59,7 +59,7 @@ O intuito do projeto é desenvolver uma fonte elétrica que transforma a partir 
 #### Os arquivos originais se encontram no repositório
 --------
 # Video explicativo:
-## [![Imagem da Thumbnail](Imagens/eletronica.jpg)]()
+## [![Imagem da Thumbnail](Imagens/eletronica.jpg)](https://www.youtube.com/watch?v=yqbpl5lMrvk)
 --------
 # Agradecimentos:
 Agradecer ao Professor Simões por mesmo em tempos difíceis como os atuais estar se esforçando para o decorrer da disciplina. O grupo espera que tudo esteja bem e espera que assim que possível possa voltar a reencontrar o professor presencialmente pelo Campus ou no ICMC.
